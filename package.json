@@ -2,8 +2,8 @@
   "name": "ei-queue-promise",
   "version": "0.0.1",
   "description": "ei-queue-promise ensures to use your promise functions with a queue",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
   "scripts": {
     "build": "npm t && rm -rf ./dist && tsc",
     "lint": "eslint \"./src/**/*.ts\" --fix",
@@ -12,6 +12,10 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage"
   },
+  "private": false,
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/isimtekin/ei-queue-promise.git"
