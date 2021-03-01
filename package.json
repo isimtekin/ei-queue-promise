@@ -1,5 +1,5 @@
 {
-  "name": "ei-queue-promise",
+  "name": "@eijs/queue-promise",
   "version": "0.0.1",
   "description": "ei-queue-promise ensures to use your promise functions with a queue",
   "main": "./dist/src/index.js",
